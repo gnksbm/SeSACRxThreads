@@ -15,6 +15,8 @@
 		BEEBBA852C5BA6510057CFEF /* .gitingore in Resources */ = {isa = PBXBuildFile; fileRef = BEEBBA842C5BA6510057CFEF /* .gitingore */; };
 		BEEBBA8B2C5BA7380057CFEF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BEEBBA8A2C5BA7380057CFEF /* SnapKit */; };
 		BEEBBA8E2C5BA7490057CFEF /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = BEEBBA8D2C5BA7490057CFEF /* RxCocoa */; };
+		BEEBBA912C5BA89E0057CFEF /* PointButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEBBA902C5BA89E0057CFEF /* PointButton.swift */; };
+		BEEBBA932C5BA8B30057CFEF /* SignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEBBA922C5BA8B30057CFEF /* SignTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		BEEBBA7B2C5BA6390057CFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEEBBA7D2C5BA6390057CFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEEBBA842C5BA6510057CFEF /* .gitingore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitingore; sourceTree = "<group>"; };
+		BEEBBA902C5BA89E0057CFEF /* PointButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointButton.swift; sourceTree = "<group>"; };
+		BEEBBA922C5BA8B30057CFEF /* SignTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,18 @@
 			isa = PBXGroup;
 			children = (
 				BEEBBA732C5BA6370057CFEF /* ViewController.swift */,
+				BEEBBA8F2C5BA8930057CFEF /* Custom */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		BEEBBA8F2C5BA8930057CFEF /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				BEEBBA902C5BA89E0057CFEF /* PointButton.swift */,
+				BEEBBA922C5BA8B30057CFEF /* SignTextField.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,7 +197,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEEBBA742C5BA6370057CFEF /* ViewController.swift in Sources */,
+				BEEBBA932C5BA8B30057CFEF /* SignTextField.swift in Sources */,
 				BEEBBA702C5BA6370057CFEF /* AppDelegate.swift in Sources */,
+				BEEBBA912C5BA89E0057CFEF /* PointButton.swift in Sources */,
 				BEEBBA722C5BA6370057CFEF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,7 +349,6 @@
 				INFOPLIST_FILE = SeSACRxThreads/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -366,7 +381,6 @@
 				INFOPLIST_FILE = SeSACRxThreads/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
