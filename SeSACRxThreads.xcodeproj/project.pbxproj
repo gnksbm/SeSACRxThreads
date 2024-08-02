@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		BEEBBA702C5BA6370057CFEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEBBA6F2C5BA6370057CFEF /* AppDelegate.swift */; };
 		BEEBBA722C5BA6370057CFEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEBBA712C5BA6370057CFEF /* SceneDelegate.swift */; };
-		BEEBBA742C5BA6370057CFEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEBBA732C5BA6370057CFEF /* ViewController.swift */; };
+		BEEBBA742C5BA6370057CFEF /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEBBA732C5BA6370057CFEF /* PasswordViewController.swift */; };
 		BEEBBA792C5BA6390057CFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEBBA782C5BA6390057CFEF /* Assets.xcassets */; };
 		BEEBBA7C2C5BA6390057CFEF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BEEBBA7B2C5BA6390057CFEF /* Base */; };
 		BEEBBA852C5BA6510057CFEF /* .gitingore in Resources */ = {isa = PBXBuildFile; fileRef = BEEBBA842C5BA6510057CFEF /* .gitingore */; };
@@ -17,19 +17,23 @@
 		BEEBBA8E2C5BA7490057CFEF /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = BEEBBA8D2C5BA7490057CFEF /* RxCocoa */; };
 		BEEBBA912C5BA89E0057CFEF /* PointButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEBBA902C5BA89E0057CFEF /* PointButton.swift */; };
 		BEEBBA932C5BA8B30057CFEF /* SignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEBBA922C5BA8B30057CFEF /* SignTextField.swift */; };
+		BEEBBA952C5BAAAF0057CFEF /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEBBA942C5BAAAF0057CFEF /* PhoneViewController.swift */; };
+		BEEBBA972C5CC7920057CFEF /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEBBA962C5CC7920057CFEF /* BirthdayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BEEBBA6C2C5BA6370057CFEF /* SeSACRxThreads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACRxThreads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEBBA6F2C5BA6370057CFEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEEBBA712C5BA6370057CFEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BEEBBA732C5BA6370057CFEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEEBBA732C5BA6370057CFEF /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		BEEBBA782C5BA6390057CFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEEBBA7B2C5BA6390057CFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEEBBA7D2C5BA6390057CFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEEBBA842C5BA6510057CFEF /* .gitingore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitingore; sourceTree = "<group>"; };
 		BEEBBA902C5BA89E0057CFEF /* PointButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointButton.swift; sourceTree = "<group>"; };
 		BEEBBA922C5BA8B30057CFEF /* SignTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignTextField.swift; sourceTree = "<group>"; };
+		BEEBBA942C5BAAAF0057CFEF /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		BEEBBA962C5CC7920057CFEF /* BirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 		BEEBBA882C5BA6F30057CFEF /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				BEEBBA732C5BA6370057CFEF /* ViewController.swift */,
+				BEEBBA732C5BA6370057CFEF /* PasswordViewController.swift */,
+				BEEBBA942C5BAAAF0057CFEF /* PhoneViewController.swift */,
+				BEEBBA962C5CC7920057CFEF /* BirthdayViewController.swift */,
 				BEEBBA8F2C5BA8930057CFEF /* Custom */,
 			);
 			path = Presentation;
@@ -196,11 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEEBBA742C5BA6370057CFEF /* ViewController.swift in Sources */,
+				BEEBBA742C5BA6370057CFEF /* PasswordViewController.swift in Sources */,
 				BEEBBA932C5BA8B30057CFEF /* SignTextField.swift in Sources */,
 				BEEBBA702C5BA6370057CFEF /* AppDelegate.swift in Sources */,
+				BEEBBA952C5BAAAF0057CFEF /* PhoneViewController.swift in Sources */,
 				BEEBBA912C5BA89E0057CFEF /* PointButton.swift in Sources */,
 				BEEBBA722C5BA6370057CFEF /* SceneDelegate.swift in Sources */,
+				BEEBBA972C5CC7920057CFEF /* BirthdayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

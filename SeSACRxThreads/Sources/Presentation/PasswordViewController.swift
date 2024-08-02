@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PasswordViewController.swift
 //  SeSACRxThreads
 //
 //  Created by gnksbm on 8/1/24.
@@ -42,7 +42,10 @@ final class PasswordViewController: UIViewController {
             
             nextButton.rx.tap
                 .bind(with: self) { vc, _ in
-                    
+                    vc.navigationController?.pushViewController(
+                        PhoneViewController(),
+                        animated: true
+                    )
                 }
         }
     }
